@@ -133,6 +133,13 @@ def build_html(pdf: Path, rows: List[m.EventRow], fast: bool) -> str:
       border-collapse: collapse;
       font-size: 14px;
     }}
+    .table-wrap {{
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }}
+    .table-wrap table {{
+      min-width: 820px;
+    }}
     thead th {{
       text-align: left;
       font-size: 12px;
@@ -166,7 +173,9 @@ def build_html(pdf: Path, rows: List[m.EventRow], fast: bool) -> str:
     <h1>Event Resume Summary</h1>
     <div class="meta">PDF: {html_escape(pdf.name)} · Updated {updated} · Mode: {mode}</div>
     <div class="card">
-      {render_table(rows)}
+      <div class="table-wrap">
+        {render_table(rows)}
+      </div>
     </div>
   </div>
 </body>
