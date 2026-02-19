@@ -129,13 +129,14 @@ def build_html(pdf: Path, rows: List[m.EventRow], fast: bool) -> str:
       box-shadow: 0 1px 0 rgba(0,0,0,0.04);
     }}
     table {{
-      width: 100%;
+      width: max-content;
       border-collapse: collapse;
       font-size: 14px;
     }}
     .table-wrap {{
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
+      display: block;
     }}
     .table-wrap table {{
       min-width: 820px;
