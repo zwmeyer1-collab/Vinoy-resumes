@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Event Resume Summary</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6d3db;
+      --ink: #1b1b1b;
+      --muted: #6b6b6b;
+      --accent: #1e3a8a;
+      --card: #ffffff;
+      --rule: #e5e1d8;
+    }
+    body {
+      margin: 0;
+      font-family: "Georgia", "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--ink);
+    }
+    .wrap {
+      max-width: 1100px;
+      margin: 24px auto 64px;
+      padding: 0 16px;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 0 0 6px;
+      letter-spacing: 0.3px;
+    }
+    .meta {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 10px;
+      padding: 8px 10px;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+    }
+    .event {
+      border-bottom: 1px solid var(--rule);
+    }
+    .event:last-child {
+      border-bottom: 0;
+    }
+    .event summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 12px 8px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 8px;
+      align-items: center;
+    }
+    .event summary::-webkit-details-marker {
+      display: none;
+    }
+    .summary-title {
+      font-weight: 700;
+    }
+    .summary-sub {
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .event[open] summary {
+      background: #faf8f4;
+    }
+    .details {
+      padding: 8px 8px 16px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px 16px;
+    }
+    .kv {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 8px;
+      font-size: 14px;
+    }
+    .k {
+      color: var(--muted);
+      text-transform: uppercase;
+      font-size: 11px;
+      letter-spacing: 0.4px;
+    }
+    .v {
+      font-weight: 600;
+    }
+    thead th {
+      text-align: left;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--muted);
+      padding: 10px 8px;
+      border-bottom: 1px solid var(--rule);
+      position: sticky;
+      top: 0;
+      background: var(--card);
+    }
+    tbody td {
+      padding: 10px 8px;
+      border-bottom: 1px solid var(--rule);
+      vertical-align: top;
+    }
+    tbody tr:hover {
+      background: #faf8f4;
+    }
+    @media (max-width: 720px) {
+      h1 { font-size: 22px; }
+      .wrap { margin-top: 16px; }
+      .details {
+        grid-template-columns: 1fr;
+      }
+      .kv {
+        grid-template-columns: 120px 1fr;
+      }
+    }
+    .lock {
+      position: fixed;
+      inset: 0;
+      background: rgba(247, 244, 239, 0.96);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+    .lock-card {
+      background: var(--card);
+      border: 1px solid var(--rule);
+      border-radius: 12px;
+      padding: 18px;
+      width: min(360px, 90vw);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    }
+    .lock-card h2 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+    .lock-card input {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid var(--rule);
+      border-radius: 8px;
+      margin: 8px 0 12px;
+    }
+    .lock-card button {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      background: var(--accent);
+      color: #fff;
+      border: 0;
+      border-radius: 8px;
+    }
+    .lock-card .err {
+      color: #b91c1c;
+      font-size: 12px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="lock" class="lock" role="dialog" aria-modal="true">
+    <div class="lock-card">
+      <h2>Enter Password</h2>
+      <div class="meta">This page is protected.</div>
+      <input id="pw" type="password" placeholder="Password" />
+      <div id="err" class="err">Incorrect password.</div>
+      <button id="btn" type="button">Unlock</button>
+    </div>
+  </div>
+  <div class="wrap">
+    <h1>Event Resume Summary</h1>
+    <div class="meta">PDF: 2.21.21 - 2.27.26 Resumes.pdf · Updated 2026-02-23 15:58 · Mode: FULL</div>
+      <div class="card">
+        <details class="event"><summary><div class="summary-title">Mannington Commercial National Sales Meeting</div><div class="summary-sub">Sun 2/22/26 → Wed 2/25/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Sun 2/22/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Wed 2/25/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">10%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">90%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$50 Overnight / $34 Daily</div></div><div class="kv"><div class="k">Billing</div><div class="v">Master Account</div></div></div></details>
+<details class="event"><summary><div class="summary-title">Orlando Health Foundation – Bayfront Center Brunch</div><div class="summary-sub">Sat 2/21/26 → Sat 2/21/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Sat 2/21/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Sat 2/21/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">—</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">—</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">—</div></div><div class="kv"><div class="k">Billing</div><div class="v">Guest to Pay</div></div></div></details>
+<details class="event"><summary><div class="summary-title">St. Petersburg Museumof History St. Pete Birthday Celebration</div><div class="summary-sub">Sat 2/21/26 → Sat 2/21/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Sat 2/21/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Sat 2/21/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">—</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">—</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$15 Daily Only</div></div><div class="kv"><div class="k">Billing</div><div class="v">Guest to Pay</div></div></div></details>
+<details class="event"><summary><div class="summary-title">VALID Systems – VALID Client Advisory Board Offsite</div><div class="summary-sub">Mon 2/23/26 → Tue 2/24/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Mon 2/23/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Tue 2/24/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">5%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">95%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$50 Overnight / $34 Daily</div></div><div class="kv"><div class="k">Billing</div><div class="v">Master Account</div></div></div></details>
+<details class="event"><summary><div class="summary-title">Colonial Life – Unum Broker Tech Forum</div><div class="summary-sub">Mon 6/30/25 → Thu 12/31/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Mon 6/30/25</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Thu 12/31/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">10%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">90%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$50 Overnight / $34 Daily</div></div><div class="kv"><div class="k">Billing</div><div class="v">Guest to Pay</div></div></div></details>
+<details class="event"><summary><div class="summary-title">FTI Consulting Finance PA Training</div><div class="summary-sub">Tue 2/24/26 → Fri 2/27/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Tue 2/24/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Fri 2/27/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">10%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">90%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$50 Overnight / $34 Daily</div></div><div class="kv"><div class="k">Billing</div><div class="v">Guest to Pay</div></div></div></details>
+<details class="event"><summary><div class="summary-title">Raymond James &amp; Associates, Inc. – Raymond James Industrials Conference</div><div class="summary-sub">Wed 2/25/26 → Fri 2/27/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Wed 2/25/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Fri 2/27/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">20%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">80%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$50 Overnight / $34 Daily</div></div><div class="kv"><div class="k">Billing</div><div class="v">Guest to Pay</div></div></div></details>
+<details class="event"><summary><div class="summary-title">Westshore Financial</div><div class="summary-sub">Tue 2/24/26 → Thu 2/26/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Tue 2/24/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Thu 2/26/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">100%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">0%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$50 Overnight / $34 Daily</div></div><div class="kv"><div class="k">Billing</div><div class="v">Guest to Pay</div></div></div></details>
+<details class="event"><summary><div class="summary-title">Archer Technologies, LLC – Archer Technologies Meeting</div><div class="summary-sub">Wed 2/25/26 → Thu 12/31/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Wed 2/25/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Thu 12/31/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">1%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">99%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$50 Overnight / $45 Daily</div></div><div class="kv"><div class="k">Billing</div><div class="v">Guest to Pay</div></div></div></details>
+<details class="event"><summary><div class="summary-title">Premio Group – Reynolds American Grand Prix Group</div><div class="summary-sub">Wed 2/25/26 → Sun 3/1/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Wed 2/25/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Sun 3/1/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">60%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">40%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$50 Daily Only</div></div><div class="kv"><div class="k">Billing</div><div class="v">Guest to Pay</div></div></div></details>
+<details class="event"><summary><div class="summary-title">Eligo Energy Company Meeting</div><div class="summary-sub">Wed 2/25/26 → Fri 2/27/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Wed 2/25/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Fri 2/27/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">10%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">90%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$50 Overnight / $34 Daily</div></div><div class="kv"><div class="k">Billing</div><div class="v">Guest to Pay</div></div></div></details>
+<details class="event"><summary><div class="summary-title">Imperial Manufacturing Group – Imperial Manufacturing Meeting</div><div class="summary-sub">Thu 2/26/26 → Thu 2/26/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Thu 2/26/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Thu 2/26/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">10%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">90%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$50 Daily Only</div></div><div class="kv"><div class="k">Billing</div><div class="v">Guest to Pay</div></div></div></details>
+<details class="event"><summary><div class="summary-title">Gainbridge Insurance Agency, LLC</div><div class="summary-sub">Thu 2/26/26 → Mon 3/2/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Thu 2/26/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Mon 3/2/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">100%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">0%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$50 Daily Only</div></div><div class="kv"><div class="k">Billing</div><div class="v">Master Account</div></div></div></details>
+<details class="event"><summary><div class="summary-title">Chip Ganassi Racing – Chip Ganassi Sporttours Grand Prix Room Block</div><div class="summary-sub">Thu 2/26/26 → Mon 3/2/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Thu 2/26/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Mon 3/2/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">100%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">0%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$50 Overnight / $34 Daily</div></div><div class="kv"><div class="k">Billing</div><div class="v">Mixed</div></div></div></details>
+<details class="event"><summary><div class="summary-title">Indianapolis Motor Speedway INDYCAR Race Weekend</div><div class="summary-sub">Thu 2/26/26 → Mon 3/2/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Thu 2/26/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Mon 3/2/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">0%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">100%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$50 Overnight / $34 Daily</div></div><div class="kv"><div class="k">Billing</div><div class="v">Master Account</div></div></div></details>
+<details class="event"><summary><div class="summary-title">Lai Tran Wedding</div><div class="summary-sub">Fri 2/27/26 → Sun 3/1/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Fri 2/27/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Sun 3/1/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">40%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">60%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$50 Overnight / $34 Daily</div></div><div class="kv"><div class="k">Billing</div><div class="v">Guest to Pay</div></div></div></details>
+<details class="event"><summary><div class="summary-title">Arrow Electronics, Inc. – Arrow Electronics Firestone Grande Prixof St. Petersburg</div><div class="summary-sub">Fri 2/27/26 → Mon 3/2/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Fri 2/27/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Mon 3/2/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">40%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">60%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$25 Overnight / $25 Daily</div></div><div class="kv"><div class="k">Billing</div><div class="v">Master Account</div></div></div></details>
+<details class="event"><summary><div class="summary-title">TOPCON Meeting</div><div class="summary-sub">Fri 2/27/26 → Fri 2/27/26</div></summary><div class="details"><div class="kv"><div class="k">Main Arrival</div><div class="v">Fri 2/27/26</div></div><div class="kv"><div class="k">Main Departure</div><div class="v">Fri 2/27/26</div></div><div class="kv"><div class="k">Drive-In %</div><div class="v">0%</div></div><div class="kv"><div class="k">Fly-In %</div><div class="v">100%</div></div><div class="kv"><div class="k">Valet Pricing</div><div class="v">$50 Overnight / $34 Daily</div></div><div class="kv"><div class="k">Billing</div><div class="v">Guest to Pay</div></div></div></details>
+      </div>
+  </div>
+  <script>
+    (function () {
+      const PASSWORD = "epgs1925";
+      const KEY = "vinoyevents_auth";
+      const lock = document.getElementById("lock");
+      const pw = document.getElementById("pw");
+      const err = document.getElementById("err");
+      const btn = document.getElementById("btn");
+
+      function unlock() {
+        if (pw.value === PASSWORD) {
+          localStorage.setItem(KEY, "1");
+          lock.style.display = "none";
+        } else {
+          err.style.display = "block";
+          pw.focus();
+          pw.select();
+        }
+      }
+
+      if (localStorage.getItem(KEY) === "1") {
+        lock.style.display = "none";
+      }
+
+      btn.addEventListener("click", unlock);
+      pw.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") unlock();
+      });
+    })();
+  </script>
+</body>
+</html>
