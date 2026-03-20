@@ -1,33 +1,83 @@
 {
-  "2.28.26 - 3.6.26 Resumes.pdf|1772466070127529942|full": {
+  "2026-03-09-v1|3.7.26 - 3.13.26 Resumes.pdf|1772555826000000000|full": {
+    "pdf_name": "3.7.26 - 3.13.26 Resumes.pdf",
+    "rows": [
+      {
+        "event_group": "Bradley Arant Boult Cummings LLP \u2013 Bradley's Financial Services Summit",
+        "main_arrival": "Sun 3/8/26",
+        "main_departure": "Tue 3/10/26",
+        "drive_in": "5%",
+        "fly_in": "95%",
+        "valet_pricing": "$45 Daily Only",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "Catalent Pharma Solutions Meeting",
+        "main_arrival": "Mon 3/9/26",
+        "main_departure": "Wed 3/11/26",
+        "drive_in": "70%",
+        "fly_in": "30%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Mixed"
+      },
+      {
+        "event_group": "Diageo North America \u2013 Diageo Open States Meeting",
+        "main_arrival": "Mon 3/9/26",
+        "main_departure": "Mon 3/16/26",
+        "drive_in": "10%",
+        "fly_in": "90%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Split (Daily Master / Overnight Guest)"
+      },
+      {
+        "event_group": "QHP Capital",
+        "main_arrival": "Mon 3/9/26",
+        "main_departure": "Thu 3/12/26",
+        "drive_in": "5%",
+        "fly_in": "95%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Landry French Construction \u2013 Landry/French Construction Q1 Board Meeting",
+        "main_arrival": "Tue 3/10/26",
+        "main_departure": "Tue 3/10/26",
+        "drive_in": "\u2014",
+        "fly_in": "\u2014",
+        "valet_pricing": "$34 Daily Only",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "Julie Wolstein Baby Shower",
+        "main_arrival": "Sat 3/14/26",
+        "main_departure": "Sat 3/14/26",
+        "drive_in": "\u2014",
+        "fly_in": "\u2014",
+        "valet_pricing": "$15 Overnight / $15 Daily",
+        "billing": "Master Account"
+      }
+    ]
+  },
+  "2026-03-09-v1|2.28.26 - 3.6.26 Resumes.pdf|1772466070127529942|full": {
     "pdf_name": "2.28.26 - 3.6.26 Resumes.pdf",
     "rows": [
       {
         "event_group": "Bridal Tea Partyfor Claire Lally",
         "main_arrival": "Sat 2/28/26",
         "main_departure": "Sat 2/28/26",
-        "drive_in": "\u2014",
-        "fly_in": "\u2014",
-        "valet_pricing": "$15 Daily Only",
+        "drive_in": "95%",
+        "fly_in": "4%",
+        "valet_pricing": "$45 Daily Only",
         "billing": "Guest to Pay"
       },
       {
-        "event_group": "National Athletic Equipment Reconditioners Association \u2013 NAERA Winter Board Meeting",
-        "main_arrival": "Sun 3/1/26",
-        "main_departure": "Wed 3/4/26",
-        "drive_in": "20%",
-        "fly_in": "80%",
-        "valet_pricing": "$25 Daily Only",
-        "billing": "Master Account"
-      },
-      {
-        "event_group": "The Ice Cream Association \u2013 TICA Q]1 Board Meeting",
-        "main_arrival": "Mon 3/2/26",
-        "main_departure": "Wed 3/4/26",
-        "drive_in": "5%",
-        "fly_in": "95%",
-        "valet_pricing": "$34 Daily Only",
-        "billing": "Guest to Pay"
+        "event_group": "Catalent Pharma Solutions Meeting",
+        "main_arrival": "Mon 3/9/26",
+        "main_departure": "Wed 3/11/26",
+        "drive_in": "70%",
+        "fly_in": "30%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Mixed"
       },
       {
         "event_group": "Southern Home Services Summit",
@@ -51,15 +101,24 @@
         "event_group": ". \u2013 Brooks Institute Congress",
         "main_arrival": "Thu 3/5/26",
         "main_departure": "Sun 3/8/26",
-        "drive_in": "20%",
-        "fly_in": "80%",
-        "valet_pricing": "$50 Overnight / $345 Daily",
-        "billing": "\u2014"
+        "drive_in": "5%",
+        "fly_in": "95%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
       },
       {
         "event_group": "MLB Pittsburgh Pirates Spring Training Room Block",
         "main_arrival": "Thu 3/5/26",
         "main_departure": "Sun 3/8/26",
+        "drive_in": "\u2014",
+        "fly_in": "\u2014",
+        "valet_pricing": "$34 Daily Only",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Julie Wolstein Baby Shower",
+        "main_arrival": "Thu 3/5/26",
+        "main_departure": "Sat 3/14/26",
         "drive_in": "0%",
         "fly_in": "100%",
         "valet_pricing": "$50 Overnight / $34 Daily",
@@ -68,7 +127,7 @@
       {
         "event_group": "Crane NXT Leadership Conference",
         "main_arrival": "Sun 3/1/26",
-        "main_departure": "Sat 3/7/26",
+        "main_departure": "Fri 3/6/26",
         "drive_in": "2%",
         "fly_in": "98%",
         "valet_pricing": "$50 Overnight / $34 Daily",
@@ -77,7 +136,7 @@
       {
         "event_group": "First Horizon Bank Meeting",
         "main_arrival": "Sun 3/2/25",
-        "main_departure": "Thu 3/5/26",
+        "main_departure": "Wed 3/4/26",
         "drive_in": "0%",
         "fly_in": "100%",
         "valet_pricing": "$40 Daily Only",
@@ -86,7 +145,7 @@
       {
         "event_group": "Davey Consulting",
         "main_arrival": "Thu 3/5/26",
-        "main_departure": "Sun 3/8/26",
+        "main_departure": "Sat 3/7/26",
         "drive_in": "0%",
         "fly_in": "100%",
         "valet_pricing": "$50 Overnight / $34 Daily",
@@ -103,35 +162,26 @@
       }
     ]
   },
-  "2.21.21 - 2.27.26 Resumes.pdf|1771523448353359970|full": {
+  "2026-03-09-v1|2.21.21 - 2.27.26 Resumes.pdf|1771523448353359970|full": {
     "pdf_name": "2.21.21 - 2.27.26 Resumes.pdf",
     "rows": [
       {
         "event_group": "Mannington Commercial National Sales Meeting",
         "main_arrival": "Sun 2/22/26",
         "main_departure": "Wed 2/25/26",
-        "drive_in": "\u2014",
-        "fly_in": "\u2014",
-        "valet_pricing": "$15 Daily Only",
-        "billing": "Guest to Pay"
-      },
-      {
-        "event_group": "National Athletic Equipment Reconditioners Association \u2013 NAERA Winter Board Meeting",
-        "main_arrival": "Sun 3/1/26",
-        "main_departure": "Wed 3/4/26",
-        "drive_in": "10%",
+        "drive_in": "5%",
         "fly_in": "90%",
         "valet_pricing": "$50 Overnight / $34 Daily",
         "billing": "Master Account"
       },
       {
-        "event_group": "The Ice Cream Association \u2013 TICA Q]1 Board Meeting",
-        "main_arrival": "Mon 3/2/26",
-        "main_departure": "Wed 3/4/26",
-        "drive_in": "5%",
-        "fly_in": "95%",
-        "valet_pricing": "\u2014",
-        "billing": "\u2014"
+        "event_group": "Catalent Pharma Solutions Meeting",
+        "main_arrival": "Mon 3/9/26",
+        "main_departure": "Wed 3/11/26",
+        "drive_in": "70%",
+        "fly_in": "30%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
       },
       {
         "event_group": "Orlando Health Foundation \u2013 Bayfront Center Brunch",
@@ -139,7 +189,7 @@
         "main_departure": "Sat 2/21/26",
         "drive_in": "\u2014",
         "fly_in": "\u2014",
-        "valet_pricing": "$34 Daily Only",
+        "valet_pricing": "\u2014",
         "billing": "Guest to Pay"
       },
       {
@@ -162,44 +212,44 @@
       },
       {
         "event_group": "Colonial Life \u2013 Unum Broker Tech Forum",
-        "main_arrival": "Mon 6/30/25",
-        "main_departure": "Thu 12/31/26",
+        "main_arrival": "Mon 2/23/26",
+        "main_departure": "Fri 3/13/26",
         "drive_in": "10%",
         "fly_in": "90%",
         "valet_pricing": "$50 Overnight / $34 Daily",
-        "billing": "\u2014"
+        "billing": "Master Account"
       },
       {
         "event_group": ". \u2013 Brooks Institute Congress",
         "main_arrival": "Thu 3/5/26",
         "main_departure": "Sun 3/8/26",
-        "drive_in": "20%",
-        "fly_in": "80%",
-        "valet_pricing": "$50 Overnight / $345 Daily",
+        "drive_in": "5%",
+        "fly_in": "95%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
         "billing": "Guest to Pay"
       },
       {
         "event_group": "Raymond James & Associates, Inc. \u2013 Raymond James Industrials Conference",
         "main_arrival": "Wed 2/25/26",
         "main_departure": "Fri 2/27/26",
+        "drive_in": "\u2014",
+        "fly_in": "\u2014",
+        "valet_pricing": "$34 Daily Only",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Julie Wolstein Baby Shower",
+        "main_arrival": "Wed 2/25/26",
+        "main_departure": "Fri 3/6/26",
         "drive_in": "20%",
         "fly_in": "80%",
         "valet_pricing": "$50 Overnight / $34 Daily",
         "billing": "Guest to Pay"
       },
       {
-        "event_group": "Crane NXT Leadership Conference",
-        "main_arrival": "Sun 3/1/26",
-        "main_departure": "Sat 3/7/26",
-        "drive_in": "\u2014",
-        "fly_in": "\u2014",
-        "valet_pricing": "\u2014",
-        "billing": "Master Account"
-      },
-      {
         "event_group": "Westshore Financial",
         "main_arrival": "Tue 2/24/26",
-        "main_departure": "Fri 3/6/26",
+        "main_departure": "Tue 2/24/26",
         "drive_in": "100%",
         "fly_in": "98%",
         "valet_pricing": "$50 Overnight / $34 Daily",
@@ -208,7 +258,7 @@
       {
         "event_group": "Archer Technologies, LLC \u2013 Archer Technologies Meeting",
         "main_arrival": "Wed 2/25/26",
-        "main_departure": "Thu 12/31/26",
+        "main_departure": "Thu 3/5/26",
         "drive_in": "1%",
         "fly_in": "99%",
         "valet_pricing": "\u2014",
@@ -217,7 +267,7 @@
       {
         "event_group": "First Horizon Bank Meeting",
         "main_arrival": "Sun 3/2/25",
-        "main_departure": "Thu 3/5/26",
+        "main_departure": "Wed 3/4/26",
         "drive_in": "0%",
         "fly_in": "100%",
         "valet_pricing": "$50 Overnight / $45 Daily",
@@ -253,7 +303,7 @@
       {
         "event_group": "Gainbridge Insurance Agency, LLC",
         "main_arrival": "Thu 2/26/26",
-        "main_departure": "Mon 3/2/26",
+        "main_departure": "Sun 3/1/26",
         "drive_in": "100%",
         "fly_in": "0%",
         "valet_pricing": "$50 Daily Only",
@@ -262,7 +312,7 @@
       {
         "event_group": "Chip Ganassi Racing \u2013 Chip Ganassi Sporttours Grand Prix Room Block",
         "main_arrival": "Thu 2/26/26",
-        "main_departure": "Mon 3/2/26",
+        "main_departure": "Sun 3/1/26",
         "drive_in": "100%",
         "fly_in": "0%",
         "valet_pricing": "$50 Overnight / $34 Daily",
@@ -280,7 +330,7 @@
       {
         "event_group": "Lai Tran Wedding",
         "main_arrival": "Fri 2/27/26",
-        "main_departure": "Sun 3/1/26",
+        "main_departure": "Sat 2/28/26",
         "drive_in": "40%",
         "fly_in": "60%",
         "valet_pricing": "$50 Overnight / $34 Daily",
@@ -306,35 +356,26 @@
       }
     ]
   },
-  "2.14.26 - 2.20.26 Resumes.pdf|1770751356000000000|full": {
+  "2026-03-09-v1|2.14.26 - 2.20.26 Resumes.pdf|1770751356000000000|full": {
     "pdf_name": "2.14.26 - 2.20.26 Resumes.pdf",
     "rows": [
       {
         "event_group": "A Kid\u2019s Place Tampa Bay \u2013 Fostering Hope Gala",
-        "main_arrival": "Sat 2/28/26",
-        "main_departure": "Sat 2/28/26",
-        "drive_in": "\u2014",
-        "fly_in": "\u2014",
-        "valet_pricing": "$25 Daily Only",
+        "main_arrival": "Sun 2/15/26",
+        "main_departure": "Mon 3/9/26",
+        "drive_in": "95%",
+        "fly_in": "4%",
+        "valet_pricing": "$45 Daily Only",
         "billing": "Mixed"
       },
       {
-        "event_group": "National Athletic Equipment Reconditioners Association \u2013 NAERA Winter Board Meeting",
-        "main_arrival": "Sun 3/1/26",
-        "main_departure": "Wed 3/4/26",
-        "drive_in": "20%",
-        "fly_in": "80%",
-        "valet_pricing": "$25 Daily Only",
-        "billing": "Master Account"
-      },
-      {
-        "event_group": "The Ice Cream Association \u2013 TICA Q]1 Board Meeting",
-        "main_arrival": "Mon 3/2/26",
-        "main_departure": "Wed 3/4/26",
-        "drive_in": "5%",
-        "fly_in": "95%",
-        "valet_pricing": "$34 Daily Only",
-        "billing": "Guest to Pay"
+        "event_group": "Catalent Pharma Solutions Meeting",
+        "main_arrival": "Mon 3/9/26",
+        "main_departure": "Wed 3/11/26",
+        "drive_in": "70%",
+        "fly_in": "30%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Mixed"
       },
       {
         "event_group": "Kopernik Global Investors",
@@ -358,10 +399,10 @@
         "event_group": ". \u2013 Brooks Institute Congress",
         "main_arrival": "Thu 3/5/26",
         "main_departure": "Sun 3/8/26",
-        "drive_in": "20%",
-        "fly_in": "80%",
-        "valet_pricing": "$50 Overnight / $345 Daily",
-        "billing": "\u2014"
+        "drive_in": "5%",
+        "fly_in": "95%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
       },
       {
         "event_group": "Raymond James & Associates, Inc. (HQ) \u2013 Raymond James 2026 RJF Long Range Board Meeting Room Block",
@@ -373,27 +414,27 @@
         "billing": "Master Account"
       },
       {
-        "event_group": "Dangar Hansen",
-        "main_arrival": "Thu 2/19/26",
-        "main_departure": "Sun 2/22/26",
-        "drive_in": "40%",
-        "fly_in": "60%",
-        "valet_pricing": "$550 Overnight / $34 Daily",
-        "billing": "Guest to Pay"
-      },
-      {
-        "event_group": "Crane NXT Leadership Conference",
-        "main_arrival": "Sun 3/1/26",
-        "main_departure": "Sat 3/7/26",
+        "event_group": "Landry French Construction \u2013 Landry/French Construction Q1 Board Meeting",
+        "main_arrival": "Fri 2/20/26",
+        "main_departure": "Fri 2/20/26",
         "drive_in": "\u2014",
         "fly_in": "\u2014",
+        "valet_pricing": "$25 Daily Only",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "Dangar Hansen",
+        "main_arrival": "Thu 2/19/26",
+        "main_departure": "Fri 3/6/26",
+        "drive_in": "40%",
+        "fly_in": "60%",
         "valet_pricing": "$35 Overnight / $25 Daily",
         "billing": "Split (Daily Master / Overnight Guest)"
       },
       {
         "event_group": "Glunt Ware Wedding",
         "main_arrival": "Fri 2/20/26",
-        "main_departure": "Fri 3/6/26",
+        "main_departure": "Wed 3/4/26",
         "drive_in": "80%",
         "fly_in": "20%",
         "valet_pricing": "$50 Overnight / $34 Daily",
@@ -428,7 +469,7 @@
       }
     ]
   },
-  "1.31.26 - 2.6.26 Resumes.pdf|1769785102235061974|full": {
+  "2026-03-09-v1|1.31.26 - 2.6.26 Resumes.pdf|1769785102235061974|full": {
     "pdf_name": "1.31.26 - 2.6.26 Resumes.pdf",
     "rows": [
       {
@@ -437,31 +478,22 @@
         "main_departure": "Tue 2/3/26",
         "drive_in": "99%",
         "fly_in": "1%",
-        "valet_pricing": "$15 Daily Only",
-        "billing": "Guest to Pay"
-      },
-      {
-        "event_group": "National Athletic Equipment Reconditioners Association \u2013 NAERA Winter Board Meeting",
-        "main_arrival": "Sun 3/1/26",
-        "main_departure": "Wed 3/4/26",
-        "drive_in": "20%",
-        "fly_in": "80%",
         "valet_pricing": "$25 Overnight / $15 Daily",
         "billing": "Master Account"
       },
       {
-        "event_group": "The Ice Cream Association \u2013 TICA Q]1 Board Meeting",
-        "main_arrival": "Mon 3/2/26",
-        "main_departure": "Wed 3/4/26",
-        "drive_in": "5%",
-        "fly_in": "95%",
-        "valet_pricing": "$15 Daily Only",
-        "billing": "Guest to Pay"
+        "event_group": "Catalent Pharma Solutions Meeting",
+        "main_arrival": "Mon 3/9/26",
+        "main_departure": "Wed 3/11/26",
+        "drive_in": "70%",
+        "fly_in": "30%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Mixed"
       },
       {
         "event_group": "TD SYNNEX 2026 Global Leadership Summit",
         "main_arrival": "Mon 2/2/26",
-        "main_departure": "Thu 3/5/26",
+        "main_departure": "Fri 3/13/26",
         "drive_in": "20%",
         "fly_in": "80%",
         "valet_pricing": "$50 Overnight / $34 Daily",
@@ -471,23 +503,32 @@
         "event_group": ". \u2013 Brooks Institute Congress",
         "main_arrival": "Thu 3/5/26",
         "main_departure": "Sun 3/8/26",
-        "drive_in": "20%",
-        "fly_in": "80%",
-        "valet_pricing": "$50 Overnight / $345 Daily",
+        "drive_in": "5%",
+        "fly_in": "95%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
         "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Landry French Construction \u2013 Landry/French Construction Q1 Board Meeting",
+        "main_arrival": "Wed 2/4/26",
+        "main_departure": "Tue 3/10/26",
+        "drive_in": "\u2014",
+        "fly_in": "\u2014",
+        "valet_pricing": "$34 Daily Only",
+        "billing": "Master Account"
       },
       {
         "event_group": "ProMach Meeting",
         "main_arrival": "Fri 2/6/26",
         "main_departure": "Fri 2/6/26",
-        "drive_in": "100%",
-        "fly_in": "4%",
+        "drive_in": "\u2014",
+        "fly_in": "\u2014",
         "valet_pricing": "$34 Daily Only",
         "billing": "Guest to Pay"
       }
     ]
   },
-  "1.24.26 - 1.30.26 Resumes.pdf|1769180223325058963|full": {
+  "2026-03-09-v1|1.24.26 - 1.30.26 Resumes.pdf|1769180223325058963|full": {
     "pdf_name": "1.24.26 - 1.30.26 Resumes.pdf",
     "rows": [
       {
@@ -502,18 +543,27 @@
       {
         "event_group": "TAG Alliances MP Summit",
         "main_arrival": "Sat 1/24/26",
-        "main_departure": "Wed 3/4/26",
+        "main_departure": "Sun 2/1/26",
         "drive_in": "10%",
         "fly_in": "90%",
         "valet_pricing": "$50 Overnight / $34 Daily",
         "billing": "Guest to Pay"
       },
       {
+        "event_group": "Catalent Pharma Solutions Meeting",
+        "main_arrival": "Mon 3/9/26",
+        "main_departure": "Wed 3/11/26",
+        "drive_in": "\u2014",
+        "fly_in": "\u2014",
+        "valet_pricing": "\u2014",
+        "billing": "\u2014"
+      },
+      {
         "event_group": "Businessand Institutional Furniture Manufacturers Association \u2013 Conference",
         "main_arrival": "Sun 1/25/26",
-        "main_departure": "Wed 3/4/26",
-        "drive_in": "5%",
-        "fly_in": "95%",
+        "main_departure": "Fri 1/30/26",
+        "drive_in": "10%",
+        "fly_in": "90%",
         "valet_pricing": "$50 Overnight / $34 Daily",
         "billing": "Guest to Pay"
       },
@@ -530,8 +580,8 @@
         "event_group": "HealthEdge Software 2026 Sales Kickoff",
         "main_arrival": "Wed 1/28/26",
         "main_departure": "Sat 1/31/26",
-        "drive_in": "10%",
-        "fly_in": "90%",
+        "drive_in": "5%",
+        "fly_in": "95%",
         "valet_pricing": "$25 Overnight / $15 Daily",
         "billing": "Master Account"
       },
@@ -539,33 +589,33 @@
         "event_group": ". \u2013 Brooks Institute Congress",
         "main_arrival": "Thu 3/5/26",
         "main_departure": "Sun 3/8/26",
-        "drive_in": "20%",
-        "fly_in": "80%",
-        "valet_pricing": "$50 Overnight / $345 Daily",
+        "drive_in": "5%",
+        "fly_in": "95%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
         "billing": "Master Account"
       },
       {
         "event_group": "AB Partners \u2013 Independent Furniture Manufacturers Roundtable",
         "main_arrival": "Mon 1/26/26",
         "main_departure": "Thu 1/29/26",
-        "drive_in": "100%",
-        "fly_in": "4%",
+        "drive_in": "0%",
+        "fly_in": "100%",
         "valet_pricing": "$50 Overnight / $34 Daily",
         "billing": "Guest to Pay"
       },
       {
-        "event_group": "Captive Resources, LLC \u2013 Captive Resources Boulder Executive Committee",
+        "event_group": "Julie Wolstein Baby Shower",
         "main_arrival": "Mon 1/26/26",
-        "main_departure": "Wed 1/28/26",
+        "main_departure": "Mon 1/26/26",
         "drive_in": "\u2014",
         "fly_in": "\u2014",
-        "valet_pricing": "\u2014",
-        "billing": "\u2014"
+        "valet_pricing": "$15 Overnight / $15 Daily",
+        "billing": "Mixed"
       },
       {
-        "event_group": "Crane NXT Leadership Conference",
-        "main_arrival": "Sun 3/1/26",
-        "main_departure": "Sat 3/7/26",
+        "event_group": "Captive Resources, LLC \u2013 Captive Resources Boulder Executive Committee",
+        "main_arrival": "Mon 1/26/26",
+        "main_departure": "Fri 3/6/26",
         "drive_in": "2%",
         "fly_in": "100%",
         "valet_pricing": "$50 Overnight / $34 Daily",
@@ -583,7 +633,7 @@
       {
         "event_group": "First Horizon Bank Meeting",
         "main_arrival": "Sun 3/2/25",
-        "main_departure": "Thu 3/5/26",
+        "main_departure": "Thu 1/29/26",
         "drive_in": "0%",
         "fly_in": "100%",
         "valet_pricing": "$40 Daily Only",
@@ -610,7 +660,7 @@
       {
         "event_group": "Charter Partners USA \u2013 The Charter Partners 2026 Summit",
         "main_arrival": "Mon 12/8/25",
-        "main_departure": "Thu 12/31/26",
+        "main_departure": "Sat 3/7/26",
         "drive_in": "10%",
         "fly_in": "90%",
         "valet_pricing": "$50 Overnight / $34 Daily",
@@ -619,15 +669,6 @@
       {
         "event_group": "The Wealthy Practitioner\u2019s Pop-Up",
         "main_arrival": "Thu 1/29/26",
-        "main_departure": "Sun 2/1/26",
-        "drive_in": "\u2014",
-        "fly_in": "\u2014",
-        "valet_pricing": "\u2014",
-        "billing": "\u2014"
-      },
-      {
-        "event_group": "Imperial Manufacturing Group \u2013 Imperial Manufacturing Meeting",
-        "main_arrival": "Thu 2/26/26",
         "main_departure": "Thu 2/26/26",
         "drive_in": "10%",
         "fly_in": "90%",
@@ -646,7 +687,7 @@
       {
         "event_group": "Yslas Wedding Room Block",
         "main_arrival": "Thu 1/29/26",
-        "main_departure": "Mon 3/2/26",
+        "main_departure": "Sat 1/31/26",
         "drive_in": "100%",
         "fly_in": "0%",
         "valet_pricing": "$50 Overnight / $34 Daily",
@@ -664,20 +705,124 @@
       {
         "event_group": "Stevens Transport, Incorporated \u2013 Stevens Transport Room Block",
         "main_arrival": "Fri 1/30/26",
-        "main_departure": "Sun 2/1/26",
+        "main_departure": "Sat 1/31/26",
+        "drive_in": "0%",
+        "fly_in": "100%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
+      }
+    ]
+  },
+  "2026-03-09-v1|3.21.26 - 3.27.26.pdf|1773772001000000000|full": {
+    "pdf_name": "3.21.26 - 3.27.26.pdf",
+    "rows": [
+      {
+        "event_group": "H2K Partners \u2013 H2K Labs Conference",
+        "main_arrival": "Sat 3/21/26",
+        "main_departure": "Tue 3/24/26",
+        "drive_in": "20%",
+        "fly_in": "80%",
+        "valet_pricing": "$25 Overnight / $25 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Artisan City Church Service",
+        "main_arrival": "Sun 3/22/26",
+        "main_departure": "Sun 3/22/26",
+        "drive_in": "100%",
+        "fly_in": "0%",
+        "valet_pricing": "$50 Overnight / $15 Daily",
+        "billing": "Mixed"
+      },
+      {
+        "event_group": "Avalon Healthcare Solutions AHCS QI] 2026 Meeting",
+        "main_arrival": "Mon 3/23/26",
+        "main_departure": "Thu 3/26/26",
+        "drive_in": "70%",
+        "fly_in": "30%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Mixed"
+      },
+      {
+        "event_group": "VSP Vision Board Meeting",
+        "main_arrival": "Mon 3/23/26",
+        "main_departure": "Fri 3/27/26",
+        "drive_in": "3%",
+        "fly_in": "97%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "GROUP CODE: SCR",
+        "main_arrival": "Tue 3/24/26",
+        "main_departure": "Sun 3/29/26",
         "drive_in": "0%",
         "fly_in": "100%",
         "valet_pricing": "$50 Overnight / $34 Daily",
         "billing": "Guest to Pay"
       },
       {
-        "event_group": "Lai Tran Wedding",
-        "main_arrival": "Fri 2/27/26",
-        "main_departure": "Sun 3/1/26",
-        "drive_in": "\u2014",
-        "fly_in": "\u2014",
+        "event_group": "Chelsea Piers Aquatic Club Room Block",
+        "main_arrival": "Mon 3/23/26",
+        "main_departure": "Sun 3/29/26",
+        "drive_in": "90%",
+        "fly_in": "10%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "\u2014"
+      },
+      {
+        "event_group": "Alexion Pharmaceuticals, Inc. \u2013 Alexion Pharmaceuticals Channel Meeting",
+        "main_arrival": "Wed 3/25/26",
+        "main_departure": "Fri 3/27/26",
+        "drive_in": "20%",
+        "fly_in": "4%",
         "valet_pricing": "$50 Daily Only",
         "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Monsignor Farrell",
+        "main_arrival": "Wed 3/25/26",
+        "main_departure": "Sat 3/28/26",
+        "drive_in": "0%",
+        "fly_in": "100%",
+        "valet_pricing": "$25 Overnight / $15 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "TECO Peoples Gas \u2013 PGS Meeting",
+        "main_arrival": "Thu 3/26/26",
+        "main_departure": "Fri 3/27/26",
+        "drive_in": "100%",
+        "fly_in": "0%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Lochan Nadel Wedding",
+        "main_arrival": "Thu 3/26/26",
+        "main_departure": "Sat 3/28/26",
+        "drive_in": "85%",
+        "fly_in": "15%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Mixed"
+      },
+      {
+        "event_group": "Northside Christian School Gala",
+        "main_arrival": "Fri 3/27/26",
+        "main_departure": "Sat 3/28/26",
+        "drive_in": "100%",
+        "fly_in": "0%",
+        "valet_pricing": "$15 Daily Only",
+        "billing": "\u2014"
+      },
+      {
+        "event_group": "ADC IBC Ballet Competition Overflow",
+        "main_arrival": "Fri 3/27/26",
+        "main_departure": "Sat 4/4/26",
+        "drive_in": "0%",
+        "fly_in": "100%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "\u2014"
       }
     ]
   }
