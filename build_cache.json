@@ -825,5 +825,73 @@
         "billing": "\u2014"
       }
     ]
+  },
+  "2026-03-09-v1|3.30.26 - 4.6.26.pdf|1774376079000000000|full": {
+    "pdf_name": "3.30.26 - 4.6.26.pdf",
+    "rows": [
+      {
+        "event_group": "CVS Health \u2013 2026 Paychex Oasis Strategy Meeting",
+        "main_arrival": "Mon 3/30/26",
+        "main_departure": "Wed 4/1/26",
+        "drive_in": "0%",
+        "fly_in": "100%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "\u2014"
+      },
+      {
+        "event_group": "The ExCo Group, LLC \u2013 Dawn\u2019s PMG Meeting",
+        "main_arrival": "Mon 3/30/26",
+        "main_departure": "Wed 4/1/26",
+        "drive_in": "5%",
+        "fly_in": "95%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "Zechmeister Gathering \u2013 Zechmeister Family Celebration",
+        "main_arrival": "Mon 3/30/26",
+        "main_departure": "Mon 4/6/26",
+        "drive_in": "0%",
+        "fly_in": "100%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "ChangeMakers CCO Meeting",
+        "main_arrival": "Tue 3/31/26",
+        "main_departure": "Thu 4/2/26",
+        "drive_in": "20%",
+        "fly_in": "80%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "GROUP CODE: SCA",
+        "main_arrival": "Tue 3/31/26",
+        "main_departure": "Sun 4/5/26",
+        "drive_in": "0%",
+        "fly_in": "100%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Telarus, LLC \u2013 Telarus New Supplier Sync & Solve",
+        "main_arrival": "Thu 4/2/26",
+        "main_departure": "Thu 4/2/26",
+        "drive_in": "\u2014",
+        "fly_in": "\u2014",
+        "valet_pricing": "\u2014",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "Tarrou Siravo",
+        "main_arrival": "Fri 4/3/26",
+        "main_departure": "Sun 4/5/26",
+        "drive_in": "100%",
+        "fly_in": "0%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Split (Daily Guest / Overnight Master)"
+      }
+    ]
   }
 }
