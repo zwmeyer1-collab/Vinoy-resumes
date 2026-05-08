@@ -536,5 +536,100 @@
         "billing": "Guest to Pay"
       }
     ]
+  },
+  "2026-03-09-v1|5.9.26 - 5.15.26 RESUMES.pdf|1777930279000000000|full": {
+    "pdf_name": "5.9.26 - 5.15.26 RESUMES.pdf",
+    "rows": [
+      {
+        "event_group": "Accertify 2026 Global Summit",
+        "main_arrival": "Sun 5/10/26",
+        "main_departure": "Thu 5/14/26",
+        "drive_in": "10%",
+        "fly_in": "90%",
+        "valet_pricing": "$25 Overnight / $15 Daily",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "YPO Florida Chapter \u2013 YPO Board Retreat",
+        "main_arrival": "Wed 5/13/26",
+        "main_departure": "Thu 5/14/26",
+        "drive_in": "100%",
+        "fly_in": "0%",
+        "valet_pricing": "$50 Daily Only",
+        "billing": "\u2014"
+      },
+      {
+        "event_group": "BHI Retirement Communities \u2013 BHI Leadership Retreat",
+        "main_arrival": "Tue 5/12/26",
+        "main_departure": "Fri 5/15/26",
+        "drive_in": "10%",
+        "fly_in": "90%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "Walker\u2019s Marine",
+        "main_arrival": "Thu 5/14/26",
+        "main_departure": "Sun 5/17/26",
+        "drive_in": "10%",
+        "fly_in": "90%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Florida Justice Association Women\u2019s Caucus Retreat",
+        "main_arrival": "Thu 5/14/26",
+        "main_departure": "Sat 5/16/26",
+        "drive_in": "60%",
+        "fly_in": "40%",
+        "valet_pricing": "$25 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Marlins TeamCo LLC",
+        "main_arrival": "Thu 5/14/26",
+        "main_departure": "Tue 5/19/26",
+        "drive_in": "\u2014",
+        "fly_in": "\u2014",
+        "valet_pricing": "$10 Overnight / $50 Daily",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "The Ideacom Network 2026 Annual Meeting",
+        "main_arrival": "Fri 5/15/26",
+        "main_departure": "Wed 5/20/26",
+        "drive_in": "20%",
+        "fly_in": "80%",
+        "valet_pricing": "$50 Overnight / $342 Daily",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "NBC Sports Group",
+        "main_arrival": "Fri 5/15/26",
+        "main_departure": "Mon 5/18/26",
+        "drive_in": "0%",
+        "fly_in": "100%",
+        "valet_pricing": "\u2014",
+        "billing": "Mixed"
+      },
+      {
+        "event_group": "Rodrigo Cooper",
+        "main_arrival": "Thu 5/14/26",
+        "main_departure": "Sat 5/16/26",
+        "drive_in": "60%",
+        "fly_in": "40%",
+        "valet_pricing": "$50 Overnight / $15 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Thorpe Austin",
+        "main_arrival": "Fri 5/15/26",
+        "main_departure": "Sun 5/17/26",
+        "drive_in": "20%",
+        "fly_in": "80%",
+        "valet_pricing": "$35 Overnight / $25 Daily",
+        "billing": "Guest to Pay"
+      }
+    ]
   }
 }
