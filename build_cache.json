@@ -360,5 +360,91 @@
         "billing": "Guest to Pay"
       }
     ]
+  },
+  "2026-03-09-v1|5.30.26-6.5.26 Resume Packet.pdf|1779809045000000000|full": {
+    "pdf_name": "5.30.26-6.5.26 Resume Packet.pdf",
+    "rows": [
+      {
+        "event_group": "Feld Entertainment \u2013 Event Marketing & Sales Meeting Room Block",
+        "main_arrival": "Mon 6/1/26",
+        "main_departure": "Wed 6/3/26",
+        "drive_in": "20%",
+        "fly_in": "80%",
+        "valet_pricing": "$40 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Kyowa Kirin Meeting",
+        "main_arrival": "Mon 6/1/26",
+        "main_departure": "Wed 6/3/26",
+        "drive_in": "0%",
+        "fly_in": "100%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "Palo Alto Networks Channel Meeting",
+        "main_arrival": "Mon 6/1/26",
+        "main_departure": "Wed 6/3/26",
+        "drive_in": "90%",
+        "fly_in": "10%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "The Collective Mastermind",
+        "main_arrival": "Mon 6/1/26",
+        "main_departure": "Thu 6/4/26",
+        "drive_in": "0%",
+        "fly_in": "100%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "Velera \u2013 Headquaters \u2013 Velera IMO Summit",
+        "main_arrival": "Mon 6/1/26",
+        "main_departure": "Wed 6/3/26",
+        "drive_in": "0%",
+        "fly_in": "100%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "Citigroup Citi LATAM Wealth Sales Conference",
+        "main_arrival": "Tue 6/2/26",
+        "main_departure": "Sun 6/7/26",
+        "drive_in": "0%",
+        "fly_in": "100%",
+        "valet_pricing": "$25 Overnight / $25 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Merck East Region Meeting",
+        "main_arrival": "Tue 6/2/26",
+        "main_departure": "Thu 6/4/26",
+        "drive_in": "50%",
+        "fly_in": "50%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Patterson Roy Wedding",
+        "main_arrival": "Wed 6/3/26",
+        "main_departure": "Sun 6/7/26",
+        "drive_in": "50%",
+        "fly_in": "50%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "VGP Group LLC \u2013 VGP's InspireU Tech Symposium",
+        "main_arrival": "Fri 6/5/26",
+        "main_departure": "Sun 6/7/26",
+        "drive_in": "15%",
+        "fly_in": "85%",
+        "valet_pricing": "$25 Overnight / $15 Daily",
+        "billing": "Master Account"
+      }
+    ]
   }
 }
