@@ -446,5 +446,173 @@
         "billing": "Master Account"
       }
     ]
+  },
+  "2026-03-09-v1|6.13-6.19 RESUMES.pdf|1780949212000000000|full": {
+    "pdf_name": "6.13-6.19 RESUMES.pdf",
+    "rows": [
+      {
+        "event_group": "Carden Jennings Publishing Company Limited \u2013 Carden Jennings Publishing 2026 Interdisciplinary Genitourinary Cancer Forum",
+        "main_arrival": "Sun 6/14/26",
+        "main_departure": "Wed 6/17/26",
+        "drive_in": "0%",
+        "fly_in": "100%",
+        "valet_pricing": "$25 Overnight / $15 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Independent Financial Partners IFP 2026 National Conference",
+        "main_arrival": "Mon 6/15/26",
+        "main_departure": "Thu 6/18/26",
+        "drive_in": "40%",
+        "fly_in": "60%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "Jordan Skinny Mixes Room Block",
+        "main_arrival": "Mon 6/15/26",
+        "main_departure": "Thu 6/18/26",
+        "drive_in": "90%",
+        "fly_in": "10%",
+        "valet_pricing": "$25 Overnight / $15 Daily",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "McKibbon Hospitality Executive Leadership Retreat",
+        "main_arrival": "Mon 6/15/26",
+        "main_departure": "Wed 6/17/26",
+        "drive_in": "90%",
+        "fly_in": "10%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "Engine HQ \u2013 Kelley Wedding Room Block",
+        "main_arrival": "Thu 6/18/26",
+        "main_departure": "Sun 6/21/26",
+        "drive_in": "50%",
+        "fly_in": "50%",
+        "valet_pricing": "$50 Daily Only",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "Tom\u2019s 50 Birthday Room \u2014 | GRourCopr: TMB",
+        "main_arrival": "Fri 6/19/26",
+        "main_departure": "Sun 6/21/26",
+        "drive_in": "80%",
+        "fly_in": "20%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Master Account"
+      }
+    ]
+  },
+  "2026-03-09-v1|6.6-6.12 RESUMES.pdf|1780339308000000000|full": {
+    "pdf_name": "6.6-6.12 RESUMES.pdf",
+    "rows": [
+      {
+        "event_group": "Carden Jennings Publishing Company Limited \u2013 Carden Jennings Publishing 2026 Interdisciplinary Genitourinary Cancer Forum",
+        "main_arrival": "Sun 6/14/26",
+        "main_departure": "Wed 6/17/26",
+        "drive_in": "0%",
+        "fly_in": "100%",
+        "valet_pricing": "$25 Overnight / $15 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "American Veterinary Group \u2013 Circleof Excellence Retreat - AVG",
+        "main_arrival": "Sun 6/7/26",
+        "main_departure": "Mon 6/8/26",
+        "drive_in": "40%",
+        "fly_in": "60%",
+        "valet_pricing": "$50 Daily Only",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "Restoration Mastermind LLC \u2013 The Restoration Mastermind Evolve",
+        "main_arrival": "Sun 6/7/26",
+        "main_departure": "Wed 6/10/26",
+        "drive_in": "0%",
+        "fly_in": "100%",
+        "valet_pricing": "$25 Overnight / $15 Daily",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "Touchstone Capital Connect Experience",
+        "main_arrival": "Mon 6/8/26",
+        "main_departure": "Wed 6/10/26",
+        "drive_in": "90%",
+        "fly_in": "10%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Master Account"
+      },
+      {
+        "event_group": "Florida Public Defender Association FPDA Spring Defender College Training",
+        "main_arrival": "Sun 6/7/26",
+        "main_departure": "Wed 6/10/26",
+        "drive_in": "\u2014",
+        "fly_in": "\u2014",
+        "valet_pricing": "\u2014",
+        "billing": "\u2014"
+      },
+      {
+        "event_group": "Engine HQ \u2013 Kelley Wedding Room Block",
+        "main_arrival": "Thu 6/18/26",
+        "main_departure": "Sun 6/21/26",
+        "drive_in": "60%",
+        "fly_in": "40%",
+        "valet_pricing": "$15 Overnight / $15 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Florida Manufactured Housing Association FMHA 2026 Annual Convention",
+        "main_arrival": "Wed 6/10/26",
+        "main_departure": "Sun 6/14/26",
+        "drive_in": "80%",
+        "fly_in": "20%",
+        "valet_pricing": "$50 Overnight / $34 Daily",
+        "billing": "Guest to Pay"
+      },
+      {
+        "event_group": "Ligori Callahan Welcome Party",
+        "main_arrival": "Fri 6/12/26",
+        "main_departure": "Mon 6/15/26",
+        "drive_in": "70%",
+        "fly_in": "30%",
+        "valet_pricing": "$25 Overnight / $15 Daily",
+        "billing": "Split (Daily Master / Overnight Guest)"
+      }
+    ]
+  },
+  "2026-03-09-v1|6.27-7.3 Resumes.pdf|1782155661000000000|full": {
+    "pdf_name": "6.27-7.3 Resumes.pdf",
+    "rows": [
+      {
+        "event_group": "TPAPK Weddings Account",
+        "main_arrival": "Fri 6/26/26",
+        "main_departure": "Mon 6/29/26",
+        "drive_in": "\u2014",
+        "fly_in": "\u2014",
+        "valet_pricing": "$50 Daily Only",
+        "billing": "\u2014"
+      },
+      {
+        "event_group": "OLIVER WYMAN Date Distributed",
+        "main_arrival": "Sat 6/27/26",
+        "main_departure": "Wed 7/1/26",
+        "drive_in": "\u2014",
+        "fly_in": "\u2014",
+        "valet_pricing": "$50 Daily Only",
+        "billing": "\u2014"
+      },
+      {
+        "event_group": "Milwaukee Tool",
+        "main_arrival": "Wed 7/1/26",
+        "main_departure": "Wed 7/1/26",
+        "drive_in": "\u2014",
+        "fly_in": "\u2014",
+        "valet_pricing": "$26 Daily Only",
+        "billing": "\u2014"
+      }
+    ]
   }
 }
